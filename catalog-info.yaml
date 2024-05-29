@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: trustin-backstage-lab01
+  description: A website for Trustin Backstage lab
+spec:
+  type: website
+  lifecycle: production
+  owner: lab-team
