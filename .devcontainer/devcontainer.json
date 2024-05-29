@@ -5,7 +5,17 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "forwardPorts": [3000, 7007]
+  "forwardPorts": [
+    3000,
+    7007
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
